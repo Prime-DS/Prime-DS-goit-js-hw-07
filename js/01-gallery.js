@@ -31,8 +31,4 @@ function onModal(eve) {
   }
 const instance = basicLightbox.create(`<img src="${eve.target.dataset.source}">`);
   instance.show();
-}
-
-
-
-
+};
